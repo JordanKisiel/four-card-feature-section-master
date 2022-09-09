@@ -22,11 +22,11 @@ body{
 }
 
 main{
-    margin: 6rem 2rem 3rem 2rem;
+    margin: 6rem 2rem 5rem 2rem;
 }
 
 header{
-    margin-bottom: 4rem;
+    margin-bottom: 4.5rem;
 }
 
 h1{
@@ -39,6 +39,7 @@ h1{
 
 h1 > span {
     font-weight: 600;
+    display: block;
 }
 
 p{
@@ -47,8 +48,9 @@ p{
 
 header p{
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-weight: 400;
+    line-height: 1.6rem;
 }
 
 h2{
@@ -59,50 +61,42 @@ h2{
 .section-container{
     display: grid;
     grid-template-rows: repeat(4 1fr);
+    row-gap: 1.4rem;
 }
 
 section{
     border-radius: 5px;
     min-height: 14rem;
-    box-shadow: 0 1rem 1rem 0rem hsla(229, 6%, 66%, 40%);
-    margin-bottom: 2rem;
-    padding: 1.5rem;
+    box-shadow: 0 0.8rem 1rem 0rem hsla(229, 40%, 66%, 35%);
+    padding: 1.4rem 1.7rem 1rem 1.7rem;
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+    background-position: 90% 85%;
 }
 
 section p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .supervisor{
     border-top: 4px solid var(--cyan);
     background-image: url("images/icon-supervisor.svg");
-    background-repeat: no-repeat;
-    background-size: 3.5rem;
-    background-position: 90% 80%;
+    
 }
 
 .team-builder{
     border-top: 4px solid var(--red);
     background-image: url("images/icon-team-builder.svg");
-    background-repeat: no-repeat;
-    background-size: 3.5rem;
-    background-position: 90% 80%;
 }
 
 .karma{
     border-top: 4px solid var(--orange);
     background-image: url("images/icon-karma.svg");
-    background-repeat: no-repeat;
-    background-size: 3.5rem;
-    background-position: 90% 80%;
 }
 
 .calculator{
     border-top: 4px solid var(--blue);
     background-image: url("images/icon-calculator.svg");
-    background-repeat: no-repeat;
-    background-size: 3.5rem;
-    background-position: 90% 80%;
 }
 
 
