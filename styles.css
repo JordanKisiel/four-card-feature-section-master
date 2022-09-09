@@ -1,0 +1,115 @@
+:root{
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%; /* sets 1rem = 10px */
+    background-color: var(--very-light-gray);
+    font-family: "Poppins", sans-serif;
+}
+
+main{
+    margin: 6rem 2rem 3rem 2rem;
+}
+
+header{
+    margin-bottom: 4rem;
+}
+
+h1{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: var(--very-dark-blue);
+    margin-bottom: 1rem;
+}
+
+h1 > span {
+    font-weight: 600;
+}
+
+p{
+    color: var(--grayish-blue);
+}
+
+header p{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-container{
+    display: grid;
+    grid-template-rows: repeat(4 1fr);
+}
+
+section{
+    border-radius: 5px;
+    min-height: 14rem;
+    box-shadow: 0 1rem 1rem 0rem hsla(229, 6%, 66%, 40%);
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+section p{
+    font-size: 0.9rem;
+}
+
+.supervisor{
+    border-top: 4px solid var(--cyan);
+    background-image: url("images/icon-supervisor.svg");
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+    background-position: 90% 80%;
+}
+
+.team-builder{
+    border-top: 4px solid var(--red);
+    background-image: url("images/icon-team-builder.svg");
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+    background-position: 90% 80%;
+}
+
+.karma{
+    border-top: 4px solid var(--orange);
+    background-image: url("images/icon-karma.svg");
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+    background-position: 90% 80%;
+}
+
+.calculator{
+    border-top: 4px solid var(--blue);
+    background-image: url("images/icon-calculator.svg");
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+    background-position: 90% 80%;
+}
+
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
